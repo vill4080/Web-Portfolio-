@@ -1,0 +1,124 @@
+body {
+    background-color: #1b4965;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* margin-top: 100px; */
+    overflow: auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    
+}
+
+
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+h1{
+    text-align:center;
+    font-size: xx-large;
+    /* position: relative; */
+    top: -100px;
+}
+
+.sub-header {
+    text-align: center;
+    font-size: x-large;
+    /* position: relative; */
+    top: -100px;
+    color: black(0, 0%, 90%);
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 25%);
+    overflow: hidden;
+    left: -3px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /* position: relative; */
+    top: -456px;
+    left: 100px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: large;
+}
+
+.navbar a:hover{
+    background-color: #1b4965;
+    color: black;
+}
+
+.navbar li{
+    float: left;
+    /* position: relative; */
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+    footer{
+    
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+    p {
+        text-align: center;
+        top: 100px;
+        left: 100px;
+        font-size: xx-large;
+        color: black;
+        
+    }
+
+    .Projects {
+text-align: center;
+    }
+
+    .Freshman-Year {
+        font-size: x-large;
+    }
+
+    .Sophmore-Year {
+        font-size: x-large;
+    }
+
+    .Contact-info{
+        font-size: xx-large;
+        text-align: center;
+        justify-content: center;
+    }
